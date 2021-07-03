@@ -1,0 +1,45 @@
+@import '../../../styles/settings.scss';
+
+// .root {
+// }
+
+.advTable {
+    font-size: 40px;
+    border: 4px solid blueviolet;
+    width: auto;
+    margin-left: 50px;
+    
+    .header {
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .titles 
+    {
+    border: 2px solid cadetblue;
+
+    a {
+        font-size: 20px;
+        margin: 50px 10px;
+
+    }
+}
+}
+
+.addAdv{
+    background: #0064e7;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 25px;
+    color: #fff;
+    font-family: inherit;
+    margin: 20px 10px;
+    text-transform: uppercase;
+    outline: none;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.addAdv:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
